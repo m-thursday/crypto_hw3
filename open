@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+open Alice.py
+
+open Bob.py
+
+open data.json
+
+open rsa_key_data.json
+
+open time.py
+
+echo "Everything is open"
