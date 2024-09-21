@@ -1,11 +1,11 @@
 using:
 	pycryptodome
-		Crypto.Util - [padding / unpadding]
+		Crypto.Util - padding, unpadding
 		Crypto.Cipher - AES, PKCS1_OAEP
 		Crypto.PublicKey - RSA
+		Crypto.Random - get_random_bytes
 	json
-	b64 encode
-	get_random_bytes
+	b64 encode, decode
 	sys argv
 
 libraries:
