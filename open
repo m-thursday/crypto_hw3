@@ -10,6 +10,8 @@ open data.json
 
 open rsa_key_data.json
 
+open results.json
+
 open time.py
 
 echo "Everything is open"

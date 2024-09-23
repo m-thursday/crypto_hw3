@@ -1,9 +1,9 @@
 from Crypto.Util.Padding import pad
-from base64 import b64encode
-from base64 import b64decode
 from Crypto.Cipher import AES, PKCS1_OAEP
 from Crypto.PublicKey import RSA
 from Crypto.Random import get_random_bytes
+from base64 import b64encode
+from base64 import b64decode
 from sys import argv
 import json
 import Bob
@@ -87,6 +87,10 @@ def switch(option):
 if __name__ == '__main__':
 	
 	script, option , uInput = argv
+	
+	while len(uInput) != 18:
+		print("message must be 18 bytes input again")
+		uInput = input("message: ")
 
 	#Need to take user input from command line
 
