@@ -7,7 +7,7 @@ import time
 import json
 from Alice import *
 
-	
+	#function definitions
 def key_pair(key_size):
 
 	aes_key = generate_AESkey(key_size)
@@ -183,7 +183,8 @@ def results(dictionary):
 	
 	return jObj
 		
-	
+
+	#everything else
 if __name__ == '__main__':
 
 	script, userInput = argv
