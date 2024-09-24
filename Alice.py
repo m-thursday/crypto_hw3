@@ -39,7 +39,7 @@ def aes_encrypt(plaintext, aes_key, aes_iv, block_size):
 	#Return JSON readable format
 	return dictionary
 
-
+#RSA encryption function
 def rsa_encrypt(plaintext):
 	with open("rsa_key_data.json", 'r') as inFile:
 		Obj = json.load(inFile)
