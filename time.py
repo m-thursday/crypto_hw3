@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
 	script, userInput = argv
 	
-	while len(userInput) != 18:
+	while len(userInput) != 7:
 		print("message must be 18 bytes input again")
 		userInput = input("message: ")
 
